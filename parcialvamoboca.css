@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #160066;
+
+
+
+    
+}
+
+
+/* HEADER */
+header {
+    height: 100px;
+    background: #333;
+}
+.container-header{
+    background-color: #ffe20a;
+    color: #000479;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Lilita One", sans-serif;
+}
+.container-header img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.container-header h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+
+}
+
+.subscribe-btn {
+    background: #000479;
+    color: #ffe20a;
+
+
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.subscribe-btn:hover{
+    background-color: #ffe20a;
+    color: #000479;
+    border: #000479 2px solid;
+}
+
+
+
+
+
+
+
+
+.content {
+    padding: 20px;
+    margin-top: 10px;
+    color: #a3faff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.player-images {
+    display: flex;
+
+    width: 900px;
+    height: 430px;
+
+}
+
+.player-images a{
+    display: flex;
+    width: 700px;
+    height: 430px;
+
+}
+.player-images img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .7;
+    transition: .5s ease;
+    border-radius: 2%;
+    border: #ffe20a 3px solid;
+
+}
+
+.player-images img:hover {
+    cursor: crosshair;
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.container-subscription {
+    width: 97.8%;
+    background-color: #ffe20a;
+    color:#000479;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: "Lilita One", sans-serif;
+}
+.container-subscription input{
+    background-color: #000479;
+    color: #ffe20a;
+    border: #ffe20a 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover{
+    background-color: #ffe20a;
+    color: #000479;
+    border: #000479 2px solid;
+}
+
+footer {
+    width: 100%;
+    background: #333;
+    color: #ffffffed;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
